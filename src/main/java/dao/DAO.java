@@ -8,7 +8,6 @@ import javax.sql.DataSource;
 public class DAO {
 	static DataSource ds;
 
-	//	コネクション確立
 	public Connection getConnection() throws Exception {
 		if (ds == null) {
 			InitialContext ic = new InitialContext();
